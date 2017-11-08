@@ -1,0 +1,346 @@
+body {
+    background: url("images/base_bg.jpg");
+}
+/*-----------------------头部版块---------------------------*/
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    width: 1366px;
+    height: 50px;
+    background: #fff;
+    top: 0px;
+    text-align: center;
+    display: block;
+}
+/*头部菜单栏*/
+#header #menu {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin: 0 auto;
+    margin-left: -500px;
+    width: 750pt;
+    height: 30px;
+}
+#header #menu img{
+    border: none;
+    outline: none;
+    display: block;
+}
+
+#header #menu a {
+    float: left;
+    display: inline;
+    line-height: 30px;
+}
+/*左边logo*/
+#header #menu .logo {
+    padding-top: 4px;
+}
+/*a标签*/
+a {
+    text-decoration: none;
+    color: #ffffff;
+    outline: none;
+}
+/*三道杠菜单栏文字*/
+#header #menu .wenzi {
+    margin: 0px 30px;
+    float: left;
+}
+
+#header #menu .wenzi a {
+    color: #000000;
+    padding:0px 12px;
+    font-size: 13px;
+    font-weight: bold;
+}
+#header #menu .wenzi a:hover{
+    color: red;
+}
+#header #menu .wenzi #xia{
+    margin-top: 10px;
+}
+#header #menu .wenzi ul{
+    position: absolute;
+    top: 37px;
+    right: 99pt;
+    display: none;
+    width: 134px;
+    background: #fff;
+    list-style: none;
+}
+#header #menu .wenzi ul a{
+    display: block;
+    padding: 0;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    text-align: center;
+    font-weight: 700;
+    line-height: 30px;
+}
+#header .logo-right{
+    margin-top: 10px;
+}
+/*------------------------------header头部结束-------------------------------*/
+
+
+
+/*------------------------------banner广告开始-------------------------------*/
+#banner{
+    position: relative;
+}
+#banner img{
+    width:100%;
+    height: 100%;
+}
+/*左边内容*/
+#banner .left-space{
+    height: 380px;
+    width: 160px;
+    padding: 10px;
+    border-radius:10px ;
+    background: url("images/widget1.png") ;
+    position: absolute;
+    top:60px;
+    left:950px;
+}
+#banner .left-space img {
+    height: 18px;
+    width: 161px;
+}
+/*7.98字体设置*/
+#banner .left-space span{
+    padding-left: 10px;
+    color: #FFFFFF;
+    font-weight:bold;
+}
+#banner .left-space span:first-child{
+    font-size: 40px;
+}
+#banner .left-space ul{
+    padding-top: 35px;
+}
+#banner .left-space ul li{
+    line-height: 30px;
+    list-style: none;
+}
+#banner .left-space ul li a{
+}
+/*右边内容*/
+#banner .right-space{
+    background:url("images/bg-1.png");
+    opacity: 0.6;
+    height: 155px;
+    width: 140px;
+    position: fixed;
+    right: 0;
+    top: 260px;
+}
+#banner .right-space ul li{
+    list-style: none;
+    line-height: 30px;
+    text-align: center;
+}
+#banner .right-space ul li:hover{
+    background:url("images/credit_btn.jpg");
+    width: 137px;
+}
+#banner .right-space ul li+li {
+    border-top: 1px solid #c3e9ff;
+}
+#banner .right-space ul li a{
+    font-size: 15px;
+    color: #f7fbb5;
+}
+#banner .right-space ul li a:hover{
+    color: #000000;
+}
+/*右下角图标*/
+#banner .bottom-space{
+    right:0;
+    top:550px;
+    position: absolute;
+}
+#banner .bottom-space img{
+    height: 56px;
+    width: 159px;
+}
+#banner .bottom-space:hover{
+    /*！！！鼠标移入显示一组轮播图，后期加入*/
+}
+
+/*-------------------------banner结束---------------------------*/
+
+
+
+/*-----------------------哥瑞菜单项开始----------------------------*/
+#gr-menu  {
+    height: 50px;
+    background-color:#000 ;
+    position: relative;
+}
+/*哥瑞logo*/
+#gr-menu .gr-tp1 {
+    padding: 15px 20px;
+}
+/*菜单项里的每一项*/
+#gr-menu dl{
+    left: 200px;
+    position:absolute;
+}
+#gr-menu dl dt,dd {
+    float: left;
+    margin: auto auto;
+    padding: 15px 20px;
+}
+#gr-menu dl dt {
+    top:50%
+}
+/*菜单文字*/
+#gr-menu dl dd a{
+    font-size: 15px;
+}
+/*预约试驾*/
+#gr-menu dl .gr-tp2{
+    margin-left: 20px;
+    width: 150px;
+    background-color:#D9A44D;
+}
+#gr-menu dl .gr-tp2 a{
+     color:#000;
+ }
+/*！！！后续需要补加*/
+#gr-menu dl .gr-tp2 a::after{
+    /*content:"url("images/more_icon.png")";*/
+}
+
+/*---------------------------哥瑞菜单项结束---------------------------------*/
+
+
+
+/*---------------------------汽车颜色板块开始----------------------------------*/
+/*颜色卡图片*/
+
+/*!!!后期加轮播*/
+#car-color .color-tp{
+    margin-top: 50px;
+}
+#car-color .color-tp ul{
+    list-style: none;
+    position: relative;
+    left: 50%;
+    width: 38%;
+}
+#car-color .color-tp ul li{
+    position: relative;
+    float: left;
+    right: 50%;
+    width: 16%;
+    text-align: center;
+    cursor: pointer;
+}
+/*汽车图片*/
+#car-color .car-tp{
+    /*display: none;*/
+}
+#car-color .car-tp .car-img {
+    padding: 60px 0px 50px;
+    width: 1040px;
+    margin: auto;
+    position: relative;
+}
+#car-color .car-tp .car-img img:first-child {
+    display: block;
+}
+#car-color .car-tp .car-img .active img {
+    position: absolute;
+    display: block;
+}
+
+/*---------------------------汽车颜色板块结束----------------------------------*/
+
+
+
+/*---------------------------车型亮点开始----------------------------------*/
+
+
+/*---------------------------车型亮点开始----------------------------------*/
+#each-part div {
+    position: relative;
+}
+#each-part img{
+    float: left;
+    width: 20%;
+    height: 600px;
+}
+/*越级空间*/
+#each-part .yjkj h2{
+    width: 20%;
+    display: block;
+    background: url("images/bg-1.png");
+    position: absolute;
+}
+#each-part .yjkj h2 a {
+    text-align: center;
+    line-height: 120px;
+    margin-left: 30%;
+}
+/*#each-part .yjkj a:hover h2{                     后期修改*/
+/*opacity: 0.2;*/
+/*}*/
+/*炫酷设计*/
+#each-part .xksj h2{
+    width: 20%;
+    left: 20%;
+    display: block;
+    background: url("images/bg-1.png");
+    position: absolute;
+}
+#each-part .xksj h2 a {
+    text-align: center;
+    line-height: 120px;
+    margin-left: 30%;
+}
+/*动力领先*/
+#each-part .dllx h2{
+    width: 20%;
+    left:40%;
+    display: block;
+    background: url("images/bg-1.png");
+    position: absolute;
+}
+#each-part .dllx h2 a {
+    text-align: center;
+    line-height: 120px;
+    margin-left: 30%;
+}
+/*智能科技*/
+#each-part .znkj h2{
+    width: 20%;
+    left:60%;
+    display: block;
+    background: url("images/bg-1.png");
+    position: absolute;
+}
+#each-part .znkj h2 a {
+    text-align: center;
+    line-height: 120px;
+    margin-left: 30%;
+}
+/*极致安全*/
+#each-part .jjaq h2{
+    width: 20%;
+    left: 80%;
+    display: block;
+    background: url("images/bg-1.png");
+    position: absolute;
+}
+#each-part .jjaq h2 a {
+    text-align: center;
+    line-height: 120px;
+    margin-left: 30%;
+}

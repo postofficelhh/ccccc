@@ -1,0 +1,40 @@
+/*video module*/
+
+.scroll-videobg {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(alpha_bg_1px.png)/*tpa=http://www.dongfeng-honda-greiz.com/images/video/alpha_bg_1px.png*/;
+}
+
+.scroll-video-stage {
+    width: 960px;
+    height: 480px;
+    margin: auto;
+    position: relative;
+}
+
+.scroll-layer-close {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: absolute;
+    background: url(close.png)/*tpa=http://www.dongfeng-honda-greiz.com/images/video/close.png*/ 0 -38px no-repeat;
+    width: 32px;
+    height: 32px;
+    left: 50%;
+    margin-left: 450px;
+    top: 60px;
+    cursor: pointer;
+}
+
+.scroll-layer-close:hover {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+

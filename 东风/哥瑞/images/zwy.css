@@ -1,0 +1,110 @@
+.cti-lightspot-item img{
+  width:100%;
+}
+.cti-linghtspot-drop-down  img{
+  width:auto;
+}
+.cti-lightspot-item-sellings ul li img {
+  width: 100%;
+}
+.cti-lightspot-item-view .cti-lightspot-maxpic li img {
+      /*max-width: 35%;*/
+  }
+.cti-lightspot-maxpic-sliders-arrows {
+  width: 48%;
+  left: 26%;
+}
+/* 二次修改 */
+ /* 下面 */
+.cti-lightspot-item-sellings-tab-capacity ul {
+  width: 33%;
+}
+.cti-lightspot-item-sellings-tab-capacity ul li {
+  width: 24%;
+}
+
+/* 左右箭头 */
+.cti-lightspot-maxpic-sliders-arrows1 {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: absolute;
+  width: 64%;
+  top: 40%;
+  left: 18%;
+  position:absolute;
+}
+#arr_left{
+    float:left;
+    width: 30px;
+}
+#arr_right{
+    float:right;
+    width: 30px;
+}
+/* swiper */
+.zwy-swiper-container{
+    width:52%;
+    margin:0 auto;
+}
+.zwy-swiper-container img{
+    width:95% !important;
+}
+.zwy-swiper-container .zwy-detail{
+    width:100%;
+    height:300px;
+    background:#000000;
+    overflow:hidden;
+}
+.zwy-swiper-container p{
+  text-align: left;
+  color: #c2965e;
+  padding: 2% 0;
+}
+
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  empty-cells: show;
+  border-collapse: collapse;
+  background-color: transparent;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  color:#fff;
+}
+.table td{
+  height: 50px;
+  vertical-align: middle;
+}
+.table td.col-xs-1{
+    width:11%;
+}
+.table td.col-xs-3{
+    width:27%;
+}
+.zwynano01 > .pane > .slider,.zwynano02 > .pane > .slider {
+  background:#4f3b22;
+}
+.zwy-swiper-container .zwy-tip{
+    width:100%;
+    background:url(bg-1.png)/*tpa=http://www.dongfeng-honda-greiz.com/images/page3/add/bg.png*/ repeat;
+}
+.zwy-swiper-container .zwy-tip img {
+  width: 100% !important;
+  margin-left: 0;
+}
+.cti-lightspot-item-view .cti-lightspot-maxpic li .zwy-swiper-container img {
+  width: 75% !important;
+  max-width: none; 
+}
+@media screen and (max-width: 1366px){
+   .zwy-swiper-container .zwy-detail{
+        height:190px;
+    }
+    .cti-lightspot-item-view .cti-lightspot-maxpic li .zwy-swiper-container img {
+      width: 65% !important;
+    }
+}
